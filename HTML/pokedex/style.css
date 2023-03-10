@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oxanium', cursive;
+}
+
+html {
+    width:100%;
+    height:100%;
+}
+
+body {
+    width:100%;
+    height:100%;
+    background-color: rgb(79, 80, 80);
+}
+
+header {
+    background-color: black;
+    padding: 17px;
+}
+
+header img {
+    display: flex;
+    width: 200px;
+    height: 70px;
+    margin:auto
+}
+
+main img {
+    display: flex;
+    width: 200px;
+    height: 300px;
+    margin-left: 15px;
+    margin-top: -100px;
+}
+
+
+.oddish {
+    margin-left: 15px;
+    padding: 20px;
+    margin-right: 1500px;
+    margin-top: -85px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    text-align: center;
+    border-radius: 9px;
+}
+
+.oddish h1 {
+    color:rgb(212, 212, 212);
+
+}
+
+.oddish h2 {
+    font-size: 1em;
+    color: rgb(196, 190, 190);
+}
+
+.paras {
+    margin-left: 15px;
+    padding: 20px;
+    margin-top: 35px;
+    margin-right: 1500px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius:9px;
+}
+
+.paras h1 {
+    color:rgb(212, 212, 212);
+
+}
+
+.paras h2 {
+    font-size: 1em;
+    color: rgb(196, 190, 190);
+}
+
+.venomoth {
+    margin-left: 15px;
+    padding: 20px;
+    margin-top: 35px;
+    margin-right: 1500px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius:9px;
+}
+
+.venomoth h1 {
+    color:rgb(212, 212, 212);
+
+}
+
+.venomoth h2 {
+    font-size: 1em;
+    color: rgb(196, 190, 190);
+}
+
+.meowth {
+    margin-left: 15px;
+    padding: 20px;
+    margin-top: 35px;
+    margin-right: 1500px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius:9px;
+}
+
+.meowth h1 {
+    color:rgb(212, 212, 212);
+}
+
+.meowth h2 {
+    font-size: 1em;
+    color: rgb(196, 190, 190);
+}
+
+
+

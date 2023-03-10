@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+</style>
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: left;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  line-height: 25px;
+  font-size: 2em;
+  font-weight: bold;
+}
+.header {
+  background-color: rgb(0, 0, 0);
+  display:flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.header h1{
+  margin-left: -180px;
+}
+
+.header ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  color: rgb(146, 138, 138);
+}
+
+/* Style the active/current link*/
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+h2 {
+  padding-left: 400px;
+  font-size: 2.5em;
+  text-shadow: 2px;
+  padding-top: 78px;
+}
+
+img {
+  width: 1000px;
+  height: 700px;
+  padding-left: 220px;
+  padding-top: 60px;
+}
+
+p {
+  text-align: justify;
+  padding-left: 380px;
+  font-size: 1.3em;
+  padding-top: 60px;
+}
+li img{
+  width: 1000px;
+  height: 700px;
+  padding-left: 220px;
+  padding-top: 70px;
+}
+h3 {
+  padding-left: 400px;
+  text-shadow: 2px;
+  padding-top: 50px;
+}
+footer {
+  border-top: solid;
+  padding:50px;
+  margin: 20px;
+  text-align: justify;
+}
+.container{
+  display: flex;
+}
+.albuns{
+  margin-top: 80px;
+  width: 400px;
+}
+
+.album{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.album-title{
+ margin-left: 30px;
+ display: flex;
+ justify-content: start;
+ align-items: start;
+ padding: 0;
+
+}
+
+.album-title a{
+  padding: 0;
+  margin-top: -40px;
+  color: #c28f32fb;
+  font-size: 18px;
+  transition: all ease 0.5s;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.album-title a:hover{
+  color: rgb(117, 112, 112);
+  transition: all ease 0.5s;
+}
+
+.album-imagem{
+}
+
+.album-imagem img{
+  width: 120px;
+  height: 120px;
+  padding: 0;
+}
+
+.albuns-title{
+  border-bottom: 1px solid black;
+  margin-bottom: 5px;
+}
+.albuns-title h1{
+  color: #e62929;
+  padding: 8px;
+  font-family: 'Archivo Black', sans-serif;
+}
+.icons{
+  margin-left: -700px;
+}
